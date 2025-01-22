@@ -15,3 +15,13 @@ To compile examples, using Visual Studio:
  value  _WINSOCK_DEPRECATED_NO_WARNINGS
   --> Project Settings > 
 * Add in Linker > Input >  Additionnal Dependencies the value ws2_32.lib
+
+Code Examples
+===========
+
+  Example01:
+    * ClientSocket01.cpp / ServerSocket01.cpp:  A socket connect done, and both side close after successfull connection
+    * ClientSocket02.cpp / ServerSocket02.cpp:  A socket connect done, plus a minimal string exchange back and forth is done
+    
+    
+     
